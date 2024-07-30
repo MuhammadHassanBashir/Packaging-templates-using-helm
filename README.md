@@ -63,7 +63,8 @@
     git add helm-templates/*.tgz index.yaml
     git commit -m "Add Helm chart packages and updated index.yaml"
     git push origin gh-pages
-    Step 8: Add and Use the Helm Repository
+# Step 8: Add and Use the Helm Repository
+    
     Add the Helm repository:
 
     helm repo add disearch-repo https://aretec-inc.github.io/disearch-helm/
